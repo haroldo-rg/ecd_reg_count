@@ -153,8 +153,6 @@ ecd_reg_count/
 ├── Cargo.toml                # Configuração do projeto
 ├── src/
 │   └── main.rs               # Código principal
-├── build/
-│   └── ecd_reg_count.zip     # Código compilado (contém o arquivo executável renomeado para .txt por questões de segurança)
 └── README.md                 # Este arquivo
 ```
 
