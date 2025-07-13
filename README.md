@@ -52,7 +52,7 @@ cargo run -- arquivo_ecd.txt
 cargo run --release -- arquivo_ecd.txt
 ```
 
-### Executar o binário diretamente
+### Executar diretamente o binário gerado com o Cargo
 
 ```bash
 # Debug
@@ -150,10 +150,12 @@ O modo release pode ser 5x a 10x mais rápido que o modo debug para processament
 
 ```
 ecd_reg_count/
-├── Cargo.toml          # Configuração do projeto
+├── Cargo.toml                # Configuração do projeto
 ├── src/
-│   └── main.rs         # Código principal
-└── README.md           # Este arquivo
+│   └── main.rs               # Código principal
+├── build/
+│   └── ecd_reg_count.zip     # Código compilado (contém o arquivo executável renomeado para .txt por questões de segurança)
+└── README.md                 # Este arquivo
 ```
 
 ### Tecnologias utilizadas
